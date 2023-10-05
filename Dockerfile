@@ -1,7 +1,7 @@
 FROM node:20-alpine
 USER node
 WORKDIR /usr/src/app
-COPY .env /usr/src/app/.env
+#COPY .env /usr/src/app/.env
 ENV NODE_ENV dev
 COPY --chown=node:node package.json /usr/src/app/package.json
 COPY --chown=node:node package-lock.json /usr/src/app/package-lock.json

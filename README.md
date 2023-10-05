@@ -1,8 +1,9 @@
+- Fork created for testing
+
 ## Instructions
-
-To start the app in development mode
-
-    docker compose up hack-omscs-dev
+To start the app,
+`npm run build`
+`npm run start`
 
 ## references
 
